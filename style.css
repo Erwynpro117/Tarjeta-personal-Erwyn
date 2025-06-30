@@ -7,7 +7,18 @@
 
     --shadow-icon: 0 3px 3px 0 #000000;
 
-    --p
+    --padding-n: 1rem;
+    --padding-s: 0.75rem;
+
+    --font-size-n: 1rem;
+}
+
+body.dark {
+    --base: #8A0101;
+    --highlight: #FF0000;
+    --shadow: #E84444;
+    --white: #120909;
+    --black: #ffffff;
 }
 
 * {
