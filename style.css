@@ -82,6 +82,22 @@ button {
     box-shadow: var(--shadow-icon);  
 }
 
+.icon svg {
+    stroke: var(--base);
+}
+
+.theme-icon {
+    display: none;
+}
+
+body:not(.dark) #icon-moon {
+    display: block;
+}
+
+body:not.dark #icon-sun {
+    display: block;
+}
+
 .main div:last-child {
     border-radius: 50%;
     overflow: hidden;
